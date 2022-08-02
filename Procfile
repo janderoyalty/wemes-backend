@@ -1,0 +1,1 @@
+web: gunicorn wemes-backend.wsgi --log-file -

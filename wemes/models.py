@@ -2,7 +2,7 @@ from django.db import models
 import qrcode
 from io import BytesIO
 from django.core.files import File
-from PIL import Image, ImageDraw
+from PIL import Image
 
 class User(models.Model):
     first_name = models.CharField(max_length=200)
